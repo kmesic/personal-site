@@ -1,0 +1,13 @@
+/**  
+ * Tailwind will swap these directives out at build-time
+ * with all of the styles it generates based on your configured
+ * design system
+ * More info: https://tailwindcss.com/docs/guides/nextjs
+ **/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: black;
+}
