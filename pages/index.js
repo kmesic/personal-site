@@ -7,19 +7,21 @@ import Footer from '../components/Footer';
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div className="flex flex-col items-center justify-center min-h-screen p-2">
       <Head>
         <title>Kenan Mesic</title>
         <link rel="icon" href="/favicon.svg" />
       </Head>
 
       <Background />
+      <div className="flex-grow	flex flex-col items-center justify-center">
 
-      <Banner>
-        <Introduction />
-        <SocialLinks />
-      </Banner>
+        <Banner>
+          <Introduction />
+          <SocialLinks />
+        </Banner>
 
+      </div>
       <Footer />
     </div>
   )
