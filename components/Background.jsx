@@ -12,6 +12,7 @@ export default function Background() {
                 layout="fill"
                 objectFit="cover"
                 quality={30}
+                priority
                 />
                 <div className="inset-0 fixed h-screen w-screen overflow-hidden bg-black	opacity-50"></div>
             </div>
