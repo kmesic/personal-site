@@ -11,8 +11,7 @@ export default function Background() {
                 alt="Mountains"
                 layout="fill"
                 objectFit="cover"
-                quality={100}
-                priority
+                quality={30}
                 />
                 <div className="inset-0 fixed h-screen w-screen overflow-hidden bg-black	opacity-50"></div>
             </div>
