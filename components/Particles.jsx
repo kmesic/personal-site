@@ -105,7 +105,8 @@ const config = {
 export default function () {
     return (
         <Particles id="particles-js"
-            params={config}    
+            params={config}
+            className="fixed"  
         />
     );
 }
