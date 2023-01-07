@@ -3,7 +3,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "eslint ./ --ext js,jsx,ts,tsx",
+    "format": "prettier --write .",
+    "clean": "rm -rf .next && rm -rf out"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
@@ -11,15 +14,23 @@
     "@fortawesome/free-regular-svg-icons": "^5.15.4",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@fortawesome/react-fontawesome": "^0.1.16",
-    "next": "latest",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-tsparticles": "^1.37.4",
-    "sharp": "^0.29.3"
+    "eslint-config-next": "^13.1.1",
+    "next": "^13.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-tsparticles": "^2.7.1",
+    "sharp": "^0.29.3",
+    "tsparticles": "^2.7.1"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.48.0",
+    "@typescript-eslint/parser": "^5.48.0",
     "autoprefixer": "^10.4.0",
+    "eslint": "^8.31.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-react": "^7.31.11",
     "postcss": "^8.3.11",
+    "prettier": "^2.8.2",
     "tailwindcss": "^2.2.19"
   }
 }
